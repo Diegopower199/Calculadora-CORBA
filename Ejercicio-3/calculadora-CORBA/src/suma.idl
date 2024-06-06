@@ -1,0 +1,18 @@
+module sumaApp{
+    interface suma{
+        double sumar(in double primerNumero, in double segundoNumero);
+        double restar(in double primerNumero, in double segundoNumero);
+        double multiplicar(in double primerNumero, in double segundoNumero);
+        double dividir(in double primerNumero, in double segundoNumero);
+        double raizCuadrada(in double primerNumero);
+        double potencia (in double primerNumero, in double segundoNumero);
+        double seno (in double primerNumero);
+        double coseno (in double primerNumero);
+        double tangente (in double primerNumero);
+        double logaritmoNeperiano (in double primerNumero);
+        double logaritmoBaseDiez (in double primerNumero);
+        string decimalToBinario (in long primerNumero);
+        long binarioToDecimal (in string numeroEnBinario);
+        oneway void shutdown();    
+    };
+};
